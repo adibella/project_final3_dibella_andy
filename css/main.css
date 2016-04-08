@@ -54,3 +54,64 @@ html {
 #content {
     padding-top: 4em;
 }
+
+#welcome {
+    background-image: url("img/pizza_planet_pattern_1.jpg");
+}
+
+/* General Stylization */
+
+#type,
+.button {
+    margin: 0.5em auto;
+    padding: 0.25em;
+    background-color: rgba(20, 133, 204, 0.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+.images {
+    margin: 0.5em auto;
+    padding: 0.25em;
+}
+
+.headline {
+    margin: auto;
+    font-family: 'Audiowide', cursive;
+    color: #ff0000;
+    text-align: center;
+}
+
+.subhead {
+    margin: auto;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: #1485cc;
+    text-align: center;
+}
+
+.paragraph {
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+
+.submitbutton:hover {
+    background: linear-gradient(#fffc19, #b21212);
+    opacity: 1;
+    transition: 2s;
+    letter-spacing: 2px;
+}
+
+.submitbutton {
+    font-family: 'Audiowide', cursive;
+    color: #fffc19;
+    border-radius: 5%;
+    background: linear-gradient(#ff0000, #b21212);
+    padding: 0.5em;
+    opacity: 0.9;
+    letter-spacing: 2px;
+}
