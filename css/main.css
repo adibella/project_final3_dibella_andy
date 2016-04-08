@@ -35,24 +35,23 @@ html {
     position: fixed;
     margin-top: -1.35em;
     padding-top: 1.5em;
+    text-align: center;
 }
 
 #header img {
     width: 30%;
     max-width: 150px;
-    float: right;
-    padding: 0.25em;
 }
 
 #header li {
     display: inline;
     font-size: 1em;
-    line-height: 2.5em;
-    padding: 0.5em;
+    line-height: 1em;
+    padding: 0.25em;
 }
 
 #content {
-    padding-top: 4em;
+    padding-top: 8em;
 }
 
 #welcome {
@@ -60,15 +59,6 @@ html {
 }
 
 /* General Stylization */
-
-#type,
-.button {
-    margin: 0.5em auto;
-    padding: 0.25em;
-    background-color: rgba(20, 133, 204, 0.2);
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-
-}
 
 .images {
     margin: 0.5em auto;
@@ -103,7 +93,7 @@ html {
     background: linear-gradient(#fffc19, #b21212);
     opacity: 1;
     transition: 2s;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .submitbutton {
@@ -111,7 +101,18 @@ html {
     color: #fffc19;
     border-radius: 5%;
     background: linear-gradient(#ff0000, #b21212);
-    padding: 0.5em;
     opacity: 0.9;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+section {
+    margin: 0.5em auto;
+    padding: 0.25em;
+    background-color: rgba(20, 133, 204, 0.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 5%;
+}
+
+@media (min-width: 200px) {
+    
 }
