@@ -24,19 +24,15 @@ html {
 #container {
     max-width: 1300px;
     margin: auto;
-    background-image: url("img/pizzaplanetpattern1.jpg");
 }
 
 /* Begin Header Styling */
 
 #header {
     width: 100%;
-    background-image: url("img/pizza_planet_pattern_1.jpg");
     background-color: rgba(203, 220, 88, 0.95);
     box-shadow: 1px 1px 1px #000000;
     position: fixed;
-    margin-top: -1.35em;
-    padding-top: 1.5em;
     text-align: center;
 }
 
@@ -57,7 +53,7 @@ html {
 }
 
 #welcome {
-    background-image: url("img/pizza_planet_pattern_1.jpg");
+
 }
 
 /* General Stylization */
@@ -83,7 +79,7 @@ html {
     padding: 0.2em;
 }
 
-.paragraph {
+p {
     margin: 0 auto;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
@@ -116,47 +112,4 @@ section {
     background-color: rgba(20, 133, 204, 0.2);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     border-radius: 2%;
-}
-
-@media (min-width: 200px) {
-
-}
-
-@media (min-width: 600px) {
-    .menuitem {
-        padding: 1em;
-
-    }
-
-    #appetizers {
-        width: 45%;
-    }
-
-    #entrees {
-        width: 45%;
-        float: right;
-    }
-
-    #drinks {
-        width: 45%;
-    }
-
-    #desserts {
-        width: 45%;
-        float: right;
-    }
-
-}
-
-@media (min-width: 1000px) {
-    #leftcolumn {
-        width: 50%;
-        float: left;
-    }
-
-    #rightcolumn {
-        width: 50%;
-        float: right;
-    }
-
 }
