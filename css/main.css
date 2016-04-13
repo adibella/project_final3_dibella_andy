@@ -92,6 +92,21 @@ html {
     margin: 0.2em;
 }
 
+#pizzaimages {
+    text-align: center;
+}
+
+/* Menu Stylizations */
+
+#entreeimage {
+    text-align: center;
+}
+
+#entreeimage img {
+    width: 25%;
+    text-align: center;
+}
+
 /* General Stylization */
 
 .images {
@@ -150,10 +165,6 @@ p {
     border-radius: 2%;
 }
 
-#pizzaimages {
-    text-align: center;
-}
-
 @media (min-width: 200px) {
     #pizzaimages {
         width: 95%;
@@ -168,8 +179,12 @@ p {
 }
 
 @media (min-width: 600px) {
-    #pizza1 img {
-        width: calc(100% / 3);
+    #pizzaimages {
+        width: 100%;
+    }
+
+    #pizzaimages img {
+        width: calc(100% / 3 - 2em);
     }
 
     #appetizers {
