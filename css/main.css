@@ -24,27 +24,22 @@ html {
 #container {
     max-width: 1300px;
     margin: auto;
-<<<<<<< HEAD
-||||||| 6c9d020... add media queries
-    background-image: url("img/pizzaplanetpattern1.jpg");
-=======
-    background-image: url("img/pizza_planet_pattern_1.jpg");
->>>>>>> parent of 6c9d020... add media queries
 }
 
 /* Begin Header Styling */
 
 #header {
     width: 100%;
+    height: auto;
     background-color: rgba(203, 220, 88, 0.95);
     box-shadow: 1px 1px 1px #000000;
-    position: fixed;
     text-align: center;
 }
 
 #header img {
-    width: 30%;
+    width: 20%;
     max-width: 150px;
+    margin-bottom: -1em;
 }
 
 #header li {
@@ -54,12 +49,47 @@ html {
     padding: 0.25em;
 }
 
-#content {
-    padding-top: 8em;
+#nav {
+    padding: 0.2em;
+    text-align: center;
 }
 
-#welcome {
+#content {
+    margin: 1em;
+}
 
+/* Welcome Styling */
+
+#welcome {
+    width: 95%;
+}
+
+#welcome article {
+    width: 95%;
+    margin: auto;
+}
+
+#alien {
+    width: 100%;
+    text-align: center;
+}
+
+#alien img {
+    width: 25%;
+    max-width: 150px;
+    text-align: center;
+}
+
+/* Image Section Styling */
+
+#pizzaimages {
+    padding: 1em;
+}
+
+#pizzaimages img {
+    width: calc(100% / 3);
+    border-radius: 5%;
+    margin: 0.2em;
 }
 
 /* General Stylization */
@@ -82,10 +112,11 @@ html {
     font-weight: 700;
     color: #1485cc;
     text-align: center;
+    margin-top: 1em;
 }
 
 p {
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     font-weight: 400;
@@ -110,19 +141,35 @@ p {
     letter-spacing: 1px;
 }
 
-section {
+.text {
     width: 98%;
-    margin: 0.5em auto;
-    padding: 0.25em;
+    margin: 1em auto;
+    padding: 0.5em;
     background-color: rgba(20, 133, 204, 0.2);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     border-radius: 2%;
 }
 
-@media (min-width: 600px) {
-    .menuitem {
-        padding: 1em;
+#pizzaimages {
+    text-align: center;
+}
 
+@media (min-width: 200px) {
+    #pizzaimages {
+        width: 95%;
+        margin: auto;
+    }
+
+    #pizzaimages img {
+        width: 90%;
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 600px) {
+    #pizza1 img {
+        width: calc(100% / 3);
     }
 
     #appetizers {

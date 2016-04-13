@@ -13,8 +13,10 @@
 <body>
     <div id="container">
         <header id="header">
-            <img src="img/pizza_planet_logo.png" title="Logo" alt="Logo" /> <!-- Logo -->
-            <nav>
+            <figure>
+                <img src="img/pizza_planet_logo.png" title="Logo" alt="Logo" />
+            </figure>
+            <nav id="nav">
                 <ul class="button">
                     <li class="submitbutton">Menu</li>
                     <li class="submitbutton">Specials</li>
@@ -24,7 +26,10 @@
         </header>
 
         <main id="content">
-            <section id="welcome">
+            <section id="welcome" class="text">
+                <figure id="alien">
+                    <img src="img/alien.png" title="alien" alt="alien" />
+                </figure>
                 <article>
                     <h1 class ="headline">Welcome to Pizza Planet!</h1>
                     <h3 class="subhead">Out of this world fun!</h3>
@@ -32,10 +37,16 @@
                 </article>
             </section>
 
+            <section id="pizzaimages">
+                <img src="img/pizza1.jpg" title="pizza" alt="pizza" />
+                <img src="img/pizza3.jpg" title="pizzaplanet" alt="pizzaplanet" />
+                <img src="img/pizza2.jpg" title="kids" alt="" />
+            </section>
+
             <div id="leftcolumn">
-            <section id="menu">
+            <section id="menu" class="text">
                 <h1 class ="headline">Menu</h1>
-                    <article id ="entrees" class="menuitem">
+                    <article id ="entrees">
                         <h3 class="subhead">Entrees</h3>
                         <article>
                             <h4 class="subhead">Atomic Pizza</h4>
@@ -122,7 +133,7 @@
             </div>
 
             <div id="rightcolumn">
-                <section id="specials">
+                <section id="specials" class="text">
                     <h1 class ="headline">Newest Transmissions...</h1>
                     <article>
                         <h4 class="subhead">Free Pizza!</h4>
@@ -140,7 +151,7 @@
                     </article>
                 </section>
 
-                <section id="contact">
+                <section id="contact" class="text">
                     <h1 class ="headline">Contact Info</h1>
                     <article>
                         <p class="paragraph">12345 Pike Street, Seattle, WA<p>
@@ -156,4 +167,5 @@
 
     <script src="js/main.js"></script>
 </body>
+
 </html>
