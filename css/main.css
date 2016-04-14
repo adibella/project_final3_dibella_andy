@@ -118,7 +118,12 @@ html {
     text-align: center;
 }
 
-/* General Stylization */
+/* General Text Stylization */
+
+h1 {
+    font-size: 2.5em;
+    
+}
 
 .images {
     margin: 0.5em auto;
