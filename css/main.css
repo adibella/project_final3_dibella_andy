@@ -31,15 +31,22 @@ html {
 #header {
     width: 100%;
     height: auto;
-    background-color: rgba(203, 220, 88, 0.95);
+    background-image: url("headerbackground.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
     box-shadow: 1px 1px 1px #000000;
     text-align: center;
+    position: fixed;
+    margin-top: -1.5em;
 }
 
 #header img {
-    width: 20%;
+    width: 30%;
     max-width: 150px;
-    margin-bottom: -1em;
+    margin-top: 1em;
+    background-color: rgba(203, 220, 88, 0.95);
+    border-radius: 50%;
 }
 
 #header li {
@@ -152,7 +159,7 @@ p {
     color: #fffc19;
     border-radius: 5%;
     background: linear-gradient(#ff0000, #b21212);
-    opacity: 0.9;
+    opacity: 0.97;
     letter-spacing: 1px;
 }
 
@@ -208,11 +215,15 @@ p {
 }
 
 @media (min-width: 1000px) {
+    #container {
+    }
+
     #welcome {
         width: 80%;
         margin: auto;
         margin-top: 5em;
     }
+
     #leftcolumn {
         width: 50%;
         float: left;
