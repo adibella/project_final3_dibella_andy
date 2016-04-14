@@ -38,7 +38,8 @@ html {
     box-shadow: 1px 1px 1px #000000;
     text-align: center;
     position: fixed;
-    margin-top: -1.5em;
+    left: 0;
+    top: 0;
 }
 
 #header img {
@@ -61,8 +62,11 @@ html {
     text-align: center;
 }
 
+ /* Basic Content Styling */
+
 #content {
     margin: 1em;
+    margin-top: 12em;
 }
 
 /* Welcome Styling */
