@@ -112,7 +112,7 @@ html {
 
 .menuitem {
     background-color: rgba(203, 220, 88, 0.7);
-    margin: 1em;
+    margin: 0.5em;
     padding: 1em;
     border-radius: 5%;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
@@ -120,22 +120,25 @@ html {
 
 /* Image Stylizations */
 
-.entreeimage {
+.menuheadimage {
     text-align: center;
 }
 
-.entreeimage img {
-    width: 50%;
-    max-width: 200px;
+.menuheadimage img {
+    width: 25%;
+    max-width: 150px;
 }
 
 .menuimage {
-    width: 25%;
-    max-width: 100px;
-    border-radius: 5%;
-    margin: 0.2em;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    text-align: center;
+}
 
+.menuimage img {
+    width: 40%;
+    max-width: 250px;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 /* Specials Stylization */
@@ -223,7 +226,6 @@ p {
         width: 90%;
         margin: auto;
     }
-
 }
 
 @media (min-width: 600px) {
@@ -249,22 +251,30 @@ p {
 
     }
 
+    #menu {
+        width: 90%;
+        margin: auto;
+    }
+
     #appetizers {
-        width: 45%;
+        width: 47%;
     }
 
     #entrees {
-        width: 45%;
+        width: 47%;
         float: right;
     }
 
     #drinks {
-        width: 45%;
+        width: 47%;
     }
 
     #desserts {
-        width: 45%;
+        width: 47%;
         float: right;
     }
 
-}
+    #specials, #contact {
+        width: 48%;
+        margin: auto;
+    }

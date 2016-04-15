@@ -18,9 +18,9 @@
             </figure>
             <nav id="nav">
                 <ul class="button">
-                    <li class="submitbutton">Menu</li>
-                    <li class="submitbutton">Specials</li>
-                    <li class="submitbutton">Contact</li>
+                    <a href="#menu"><li class="submitbutton">Menu</li></a>
+                    <a href="#specials"><li class="submitbutton">Specials</li></a>
+                    <a href="#contact"><li class="submitbutton">Contact</li></a>
                 </ul>
             </nav>
         </header>
@@ -42,11 +42,12 @@
                 <img src="img/pizza3.jpg" title="pizzaplanet" alt="pizzaplanet" />
                 <img src="img/pizza2.jpg" title="kids" alt="" />
             </section>
-            
+
+            <div id="leftcolumn">
             <section id="menu">
                 <h1 class ="headline">Menu</h1>
                     <article id ="entrees" class="menuitem">
-                        <figure class="entreeimage">
+                        <figure class="menuheadimage">
                             <img src="img/pizza.png" title="pizza" alt="pizza" />
                         </figure>
                         <h3 class="subhead">Entrees</h3>
@@ -68,14 +69,14 @@
                                 <p>$6.99</p>
                         </article>
 
-                        <figure id= "entree1" class="entreeimage">
+                        <figure class="menuimage">
                             <img src="img/entree1.jpg" title="pizza" alt="pizza" />
                             <img src="img/entree2.jpg" title="pizza" alt="pizza" />
                         </figure>
                     </article>
 
                     <article id ="appetizers" class="menuitem">
-                        <figure class="entreeimage">
+                        <figure class="menuheadimage">
                             <img src="img/pizza.png" title="pizza" alt="pizza" />
                         </figure>
                         <h3 class="subhead">Appetizers</h3>
@@ -97,14 +98,14 @@
                                 <p class="paragraph">$4.99</p>
                         </article>
 
-                        <figure id= "entree1" class="entreeimage">
-                            <img src="img/entree1.jpg" title="pizza" alt="pizza" />
-                            <img src="img/entree2.jpg" title="pizza" alt="pizza" />
+                        <figure class="menuimage">
+                            <img src="img/app1.jpg" title="pizza" alt="pizza" />
+                            <img src="img/app2.jpg" title="pizza" alt="pizza" />
                         </figure>
                     </article>
 
                     <article id ="desserts" class="menuitem">
-                        <figure class="entreeimage">
+                        <figure class="menuheadimage">
                             <img src="img/pizza.png" title="pizza" alt="pizza" />
                         </figure>
                         <h3 class="subhead">Desserts</h3>
@@ -125,14 +126,14 @@
                                 <p>Made with fresh cookies from the Oreo Nebula!</p>
                                 <p>$0.99</p>
                         </article>
-                        <figure id= "entree1" class="entreeimage">
-                            <img src="img/entree1.jpg" title="pizza" alt="pizza" />
-                            <img src="img/entree2.jpg" title="pizza" alt="pizza" />
+                        <figure class="menuimage">
+                            <img src="img/dessert1.jpg" title="pizza" alt="pizza" />
+                            <img src="img/dessert2.jpg" title="pizza" alt="pizza" />
                         </figure>
                     </article>
 
-                    <article id ="drinks" class="menuitem">
-                        <figure class="entreeimage">
+                    <article id="drinks" class="menuitem">
+                        <figure class="menuheadimage">
                             <img src="img/pizza.png" title="pizza" alt="pizza" />
                         </figure>
                         <h3 class="subhead">Drinks</h3>
@@ -153,15 +154,15 @@
                                 <p>For those times when your little space cadets are just too much</p>
                                 <p>$4.99</p>
                         </article>
-                        <figure id= "entree1" class="entreeimage">
-                            <img src="img/entree1.jpg" title="pizza" alt="pizza" />
-                            <img src="img/entree2.jpg" title="pizza" alt="pizza" />
+                        <figure class="menuimage">
+                            <img src="img/drink1.jpg" title="pizza" alt="pizza" />
+                            <img src="img/drink2.jpg" title="pizza" alt="pizza" />
                         </figure>
                     </article>
                 </section>
 
                 <section id="specials" class="text">
-                    <figure class="entreeimage">
+                    <figure class="menuheadimage">
                         <img src="img/spaceship1.png" title="pizza" alt="pizza" />
                     </figure>
                     <h1 class ="headline">Newest Transmissions...</h1>
@@ -182,7 +183,7 @@
                 </section>
 
                 <section id="contact" class="text">
-                    <figure class="entreeimage">
+                    <figure class="menuheadimage">
                         <img src="img/comm1.png" title="pizza" alt="pizza" />
                     </figure>
                     <h1 class ="headline">Contact Info</h1>
@@ -192,6 +193,7 @@
                         <p>info@pizzaplanet.com</p>
                     </article>
                 </section>
+
         </main>
 
         <footer>
