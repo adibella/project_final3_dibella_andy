@@ -101,6 +101,7 @@ html {
     width: calc(100% / 3);
     border-radius: 5%;
     margin: 0.2em;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 #pizzaimages {
@@ -109,25 +110,56 @@ html {
 
 /* Menu Stylizations */
 
-#entreeimage {
+.menuitem {
+    background-color: rgba(203, 220, 88, 0.7);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+/* Image Stylizations */
+
+.entreeimage {
     text-align: center;
 }
 
-#entreeimage img {
-    width: 25%;
-    text-align: center;
+.entreeimage img {
+    width: 50%;
+    max-width: 200px;
 }
+
+.menuimage {
+    width: 25%;
+    max-width: 100px;
+    border-radius: 5%;
+    margin: 0.2em;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+/* Specials Stylization */
+
+#
+
+/* Contact Stylization */
 
 /* General Text Stylization */
 
 h1 {
     font-size: 2.5em;
-    
+}
+
+h3 {
+    font-size: 1.75em;
 }
 
 .images {
     margin: 0.5em auto;
     padding: 0.25em;
+    width: 25%;
+    max-width: 150px;
+
 }
 
 .headline {
@@ -178,7 +210,7 @@ p {
     padding: 0.5em;
     background-color: rgba(20, 133, 204, 0.2);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-    border-radius: 2%;
+    border-radius: 5%;
 }
 
 @media (min-width: 200px) {
@@ -201,6 +233,20 @@ p {
 
     #pizzaimages img {
         width: calc(100% / 3 - 2em);
+
+    }
+
+}
+
+@media (min-width: 1000px) {
+    #container {
+    }
+
+    #welcome {
+        width: 80%;
+        margin: auto;
+        margin-top: 5em;
+
     }
 
     #appetizers {
@@ -221,25 +267,4 @@ p {
         float: right;
     }
 
-}
-
-@media (min-width: 1000px) {
-    #container {
-    }
-
-    #welcome {
-        width: 80%;
-        margin: auto;
-        margin-top: 5em;
-    }
-
-    #leftcolumn {
-        width: 50%;
-        float: left;
-    }
-
-    #rightcolumn {
-        width: 50%;
-        float: right;
-    }
 }
