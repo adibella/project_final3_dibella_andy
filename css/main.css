@@ -95,6 +95,7 @@ html {
 
 #pizzaimages {
     padding: 1em;
+    background-color:
 }
 
 #pizzaimages img {
@@ -109,6 +110,17 @@ html {
 }
 
 /* Menu Stylizations */
+
+#menu {
+    margin-top: 3em;
+}
+
+#menu h1 {
+    width: 75%;
+    font-size: 5em;
+    border-top: 1px solid;
+    border-bottom: 2px solid;
+}
 
 .menuitem {
     background-color: rgba(203, 220, 88, 0.7);
@@ -144,18 +156,31 @@ html {
 
 /* Specials Stylization */
 
-#
-
 /* Contact Stylization */
+
+#contact ul {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#contact li {
+    display: inline;
+    text-decoration: none;
+}
 
 /* General Text Stylization */
 
 h1 {
-    font-size: 2.5em;
+    font-size: 4em;
 }
 
 h3 {
     font-size: 1.75em;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    width: 75%;
+    padding-top: 0.25em;
 }
 
 .images {
@@ -171,6 +196,7 @@ h3 {
     font-family: 'Audiowide', cursive;
     color: #ff0000;
     text-align: center;
+    font-size: 2.5em;
 }
 
 .subhead {
@@ -217,6 +243,16 @@ p {
     border-radius: 5%;
 }
 
+.socialmedia {
+    width: 50%;
+    margin: auto;
+}
+
+.socialmedia img {
+    width: 25%;
+    padding: 1em;
+}
+
 @media (min-width: 200px) {
     #pizzaimages {
         width: 95%;
@@ -236,15 +272,33 @@ p {
 
     #pizzaimages img {
         width: calc(100% / 3 - 2em);
+    }
 
+    #appetizers {
+        width: 47%;
+        padding: 0.25em;
+    }
+
+    #entrees {
+        width: 47%;
+        padding: 0.25em;
+        float: right;
+    }
+
+    #drinks {
+        width: 47%;
+        padding: 0.25em;
+    }
+
+    #desserts {
+        width: 47%;
+        padding: 0.25em;
+        float: right;
     }
 
 }
 
 @media (min-width: 1000px) {
-    #container {
-    }
-
     #welcome {
         width: 80%;
         margin: auto;
@@ -253,29 +307,7 @@ p {
     }
 
     #menu {
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
-
-    #appetizers {
-        width: 47%;
-    }
-
-    #entrees {
-        width: 47%;
-        float: right;
-    }
-
-    #drinks {
-        width: 47%;
-    }
-
-    #desserts {
-        width: 47%;
-        float: right;
-    }
-
-    #specials, #contact {
-        width: 48%;
-        margin: auto;
-    }
+}
