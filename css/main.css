@@ -37,9 +37,9 @@ html {
     background-size: cover;
     box-shadow: 1px 1px 1px #000000;
     text-align: center;
-    position: fixed;
     left: 0;
     top: 0;
+    position: fixed;
 }
 
 #header img {
@@ -62,10 +62,7 @@ html {
     text-align: center;
 }
 
-a:link,
-a:visited,
-a:active,
-a:hover {
+a:link, a:visited, a:active {
     text-decoration: none;
 }
 
