@@ -37,9 +37,6 @@ html {
     background-size: cover;
     box-shadow: 1px 1px 1px #000000;
     text-align: center;
-    left: 0;
-    top: 0;
-    position: fixed;
 }
 
 #header img {
@@ -60,6 +57,7 @@ html {
 #nav {
     padding: 0.2em;
     text-align: center;
+    margin: auto;
 }
 
 a:link, a:visited, a:active {
@@ -70,7 +68,6 @@ a:link, a:visited, a:active {
 
 #content {
     margin: 1em;
-    margin-top: 12em;
 }
 
 /* Welcome Styling */
@@ -99,7 +96,7 @@ a:link, a:visited, a:active {
 
 #pizzaimages {
     padding: 1em;
-    background-color:
+    text-align: center;
 }
 
 #pizzaimages img {
@@ -109,21 +106,18 @@ a:link, a:visited, a:active {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-#pizzaimages {
-    text-align: center;
-}
-
 /* Menu Stylizations */
 
 #menu {
-    margin-top: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 #menu h1 {
     width: 75%;
-    font-size: 5em;
+    font-size: 4em;
     border-top: 1px solid;
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
 }
 
 .menuitem {
@@ -162,16 +156,7 @@ a:link, a:visited, a:active {
 
 /* Contact Stylization */
 
-#contact ul {
-    width: 50%;
-    margin: auto;
-    text-align: center;
-}
 
-#contact li {
-    display: inline;
-    text-decoration: none;
-}
 
 /* General Text Stylization */
 
@@ -250,14 +235,15 @@ p {
     border-radius: 5%;
 }
 
-.socialmedia {
-    width: 50%;
-    margin: auto;
+#socialmedia {
+    width: 100%;
+    text-align: center;
 }
 
-.socialmedia img {
-    width: 25%;
-    padding: 1em;
+#socialmedia img {
+    width: 40%;
+    max-width: 50px;
+    margin: 0.25em;
 }
 
 @media (min-width: 200px) {
