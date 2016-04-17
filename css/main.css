@@ -246,13 +246,18 @@ p {
     max-width: 50px;
     margin: 0.25em;
 }
+ /* ScrollUp Plug-in */
 
 #scrollUp {
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background-color: #555;
-    color: #fff;
+    bottom: 0.7em;
+    right: 0.7em;
+    padding: 0.25em;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.1em;
+    background-color: rgba(20, 133, 204, 0.9);
+    color: #ffffff;
+    border-radius: 5%;
+    line-height: 1em;
 }
 
 @media (min-width: 200px) {
@@ -297,7 +302,6 @@ p {
         padding: 0.25em;
         float: right;
     }
-
 }
 
 @media (min-width: 1000px) {
