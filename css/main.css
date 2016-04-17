@@ -67,7 +67,8 @@ a:link, a:visited, a:active {
  /* Basic Content Styling */
 
 #content {
-    margin: 1em;
+    margin: 0.25em;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Welcome Styling */
@@ -121,7 +122,7 @@ a:link, a:visited, a:active {
 }
 
 .menuitem {
-    background-color: rgba(203, 220, 88, 0.7);
+    background-color: rgba(203, 220, 88, 0.9);
     margin: 0.5em;
     padding: 1em;
     border-radius: 5%;
@@ -244,6 +245,14 @@ p {
     width: 40%;
     max-width: 50px;
     margin: 0.25em;
+}
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
 }
 
 @media (min-width: 200px) {

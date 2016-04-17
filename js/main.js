@@ -7,3 +7,9 @@ welcome.addEventListener( 'click', function() {
 //Backstrech Plug-in
 
 $.backstretch( 'css/headerbackground.jpg' );
+
+//Scroll Up Plug-in
+
+$( function() {
+    $.scrollUp();
+} );
