@@ -1,7 +1,20 @@
+//Custom Javascript
+
 var welcome = document.getElementById( 'welcome' );
 
 welcome.addEventListener( 'click', function() {
 	welcome.innerHTML = '<h3>You will love Pizza Planet!</h3>';
+} );
+
+//Custon jquery
+$( document ).ready( function() {
+	$( 'h4' ).mouseenter( function() {
+		$( 'h4' ).addClass( 'h4hover' );
+	} );
+
+	$( 'h4' ).mouseleave( function() {
+		$( 'h4' ).removeClass( 'h4hover' );
+	} );
 } );
 
 //Backstrech Plug-in
