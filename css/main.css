@@ -24,6 +24,7 @@ html {
 #container {
     max-width: 1300px;
     margin: auto;
+    height: auto;
 }
 
 /* Begin Header Styling */
@@ -63,11 +64,13 @@ html {
     margin: auto;
 }
 
-a:link, a:visited, a:active {
+a:link,
+a:visited,
+a:active {
     text-decoration: none;
 }
 
- /* Basic Content Styling */
+/* Basic Content Styling */
 
 #content {
     margin: 0.25em;
@@ -127,7 +130,7 @@ a:link, a:visited, a:active {
 
 .menuitem {
     background-color: rgba(203, 220, 88, 0.9);
-    margin: 0.2em;
+    margin: 0.5em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
@@ -244,7 +247,8 @@ p {
     max-width: 50px;
     margin: 0.25em;
 }
- /* ScrollUp Plug-in */
+
+/* ScrollUp Plug-in */
 
 #scrollUp {
     bottom: 0.7em;
@@ -320,7 +324,7 @@ p {
     }
 
     #specials {
-        width: 80%
+        width: 80%;
     }
 
 }
