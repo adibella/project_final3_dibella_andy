@@ -127,8 +127,7 @@ a:link, a:visited, a:active {
 
 .menuitem {
     background-color: rgba(203, 220, 88, 0.9);
-    margin: 0.5em;
-    border-radius: 10%;
+    margin: 0.2em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
@@ -150,18 +149,20 @@ a:link, a:visited, a:active {
 }
 
 .menuimage img {
-    width: 40%;
-    max-width: 250px;
+    width: 30%;
+    max-width: 200px;
     margin: 0.25em;
     border-radius: 5%;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-/* Specials Stylization */
+.images {
+    margin: 0.5em auto;
+    padding: 0.25em;
+    width: 25%;
+    max-width: 150px;
 
-/* Contact Stylization */
-
-
+}
 
 /* General Text Stylization */
 
@@ -178,14 +179,6 @@ h3 {
     color: #1485cc;
     margin: auto;
     text-align: center;
-}
-
-.images {
-    margin: 0.5em auto;
-    padding: 0.25em;
-    width: 25%;
-    max-width: 150px;
-
 }
 
 .headline {
@@ -239,7 +232,6 @@ p {
     padding: 0.5em;
     background-color: rgba(20, 133, 204, 0.2);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-    border-radius: 5%;
 }
 
 #socialmedia {
@@ -316,12 +308,19 @@ p {
     #welcome {
         width: 80%;
         margin: auto;
-        margin-top: 5em;
-
     }
 
     #menu {
-        width: 95%;
+        width: 80%;
         margin: auto;
     }
+
+    #contact {
+        width: 80%;
+    }
+
+    #specials {
+        width: 80%
+    }
+
 }
