@@ -1,6 +1,6 @@
 //Custom Javascript
 
-var welcome = document.getElementById( 'welcome' );
+var welcome = document.getElementById( 'alien' );
 
 welcome.addEventListener( 'click', function() {
 	welcome.innerHTML = '<h3>You will love Pizza Planet!</h3>';
