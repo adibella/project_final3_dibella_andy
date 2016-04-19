@@ -15,7 +15,6 @@ $( document ).ready( function() {
 	$( 'h4' ).mouseleave( function() {
 		$( 'h4' ).removeClass( 'h4hover' );
 	} );
-} );
 
 //Backstrech Plug-in
 
@@ -25,4 +24,6 @@ $.backstretch( 'css/headerbackground.jpg' );
 
 $( function() {
     $.scrollUp();
+} );
+
 } );

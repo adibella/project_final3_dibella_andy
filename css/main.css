@@ -139,8 +139,9 @@ a:link, a:visited, a:active {
 }
 
 .menuheadimage img {
-    width: 25%;
+    width: 20%;
     max-width: 150px;
+    padding: 0.1em;
 }
 
 .menuimage {
@@ -293,24 +294,20 @@ p {
     }
 
     #appetizers {
-        width: 47%;
-        padding: 0.25em;
+        width: calc(100% / 2 - 1em);
     }
 
     #entrees {
-        width: 47%;
-        padding: 0.25em;
+        width: calc(100% / 2 - 1em);
         float: right;
     }
 
     #drinks {
-        width: 47%;
-        padding: 0.25em;
+        width: calc(100% / 2 - 1em);
     }
 
     #desserts {
-        width: 47%;
-        padding: 0.25em;
+        width: calc(100% / 2 - 1em);
         float: right;
     }
 }
