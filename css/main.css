@@ -33,11 +33,11 @@ html {
     width: 100%;
     height: auto;
     box-shadow: 1px 1px 1px #000000;
-    background-color: rgba(20, 133, 204, 0.9);
+    background-color: rgba(20, 133, 204, 0.2);
     text-align: center;
 }
 
-#header img {
+#logo img {
     width: 30%;
     max-width: 150px;
     margin-top: 1em;
@@ -189,20 +189,22 @@ h3 {
     font-family: 'Audiowide', cursive;
     color: #ff0000;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 
 .subhead {
     margin: auto;
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
-    color: #1485cc;
+    color: #0971b2;
     text-align: center;
     margin-top: 0.25em;
     margin-bottom: 0.25em;
+    letter-spacing: 0.1em;
 }
 
-p {
+p,
+figcaption {
     margin: auto;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
@@ -265,7 +267,8 @@ p {
 /* jQuery Style */
 
 .h4hover {
-    color: black;
+    padding: 0.8em;
+    border: black 2px;
 }
 
 @media (min-width: 200px) {

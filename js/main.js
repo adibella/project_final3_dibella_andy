@@ -6,14 +6,14 @@ welcome.addEventListener( 'click', function() {
 	welcome.innerHTML = '<h3>You will love Pizza Planet!</h3>';
 } );
 
-//Custon jquery
+//Custom jQuery
 $( document ).ready( function() {
-	$( 'h4' ).mouseenter( function() {
-		$( 'h4' ).addClass( 'h4hover' );
+	$( '.socialmedia' ).mouseenter( function() {
+		$( '.socialmedia' ).addClass( 'h4hover' );
 	} );
 
-	$( 'h4' ).mouseleave( function() {
-		$( 'h4' ).removeClass( 'h4hover' );
+	$( '.socialmedia' ).mouseleave( function() {
+		$( '.socialmedia' ).removeClass( 'h4hover' );
 	} );
 
 //Backstrech Plug-in
