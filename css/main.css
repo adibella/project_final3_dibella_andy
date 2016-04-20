@@ -145,7 +145,7 @@ a:active {
 .menuheadimage img {
     width: 20%;
     max-width: 150px;
-    padding: 0.1em;
+    padding: .2em;
 }
 
 .menuimage {
@@ -298,22 +298,9 @@ figcaption {
         width: calc(100% / 3 - 2em);
     }
 
-    #appetizers {
-        width: calc(100% / 2 - 1em);
-    }
-
-    #entrees {
-        width: calc(100% / 2 - 1em);
-        float: right;
-    }
-
-    #drinks {
-        width: calc(100% / 2 - 1em);
-    }
-
-    #desserts {
-        width: calc(100% / 2 - 1em);
-        float: right;
+    #menu {
+        width: 80%;
+        margin: auto;
     }
 }
 
@@ -334,6 +321,25 @@ figcaption {
 
     #specials {
         width: 80%;
+    }
+
+    #appetizers {
+        width: calc(100% / 2 - 1em);
+    }
+
+    #entrees {
+        width: calc(100% / 2 - 1em);
+        float: right;
+    }
+
+    #drinks {
+        width: calc(100% / 2 - 1em);
+    }
+
+    #desserts {
+        width: calc(100% / 2 - 1em);
+        margin-top: -0.1em;
+        float: right;
     }
 
 }

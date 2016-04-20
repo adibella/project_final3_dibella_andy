@@ -25,6 +25,6 @@ The actual coding of the site itself went pretty smoothly. As of this writing th
 
 I wanted the overall brand and aesthetic of the site to be one of both elegance and kid-friendly. I feel that this was overall achieved.
 
-I also didn't see the extra credit options until the day before it was due so unfortunately I didn't attempt to take advantage of it.
+I wasn't able to figure out the sizing issue I had with my floats on my menu before I had to submit the project. Thanks for your suggestion during the presentation, but if you could take a close look at what's going on there I'd appreciate it. I ended up being able to make it work by triming down the descriptions in the menu.
 
 Thank you again for your feedback and efforts!
