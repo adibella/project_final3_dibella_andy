@@ -8,12 +8,20 @@ welcome.addEventListener( 'click', function() {
 
 //Custom jQuery
 $( document ).ready( function() {
-	$( '.socialmedia' ).mouseenter( function() {
-		$( '.socialmedia' ).addClass( 'h4hover' );
+	$( '.facebook' ).mouseenter( function() {
+		$( '.facebook' ).addClass( 'h4hover' );
 	} );
 
-	$( '.socialmedia' ).mouseleave( function() {
-		$( '.socialmedia' ).removeClass( 'h4hover' );
+	$( '.facebook' ).mouseleave( function() {
+		$( '.facebook' ).removeClass( 'h4hover' );
+	} );
+
+	$( '.twitter' ).mouseenter( function() {
+		$( '.twitter' ).addClass( 'h4hover' );
+	} );
+
+	$( '.twitter' ).mouseleave( function() {
+		$( '.twitter' ).removeClass( 'h4hover' );
 	} );
 
 //Backstrech Plug-in

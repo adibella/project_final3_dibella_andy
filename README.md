@@ -7,13 +7,14 @@
 [Host Link](http://www.adibella.net/pizzaplanet/)
 
 ##Resources Used
-* 	“I did not use any resources outside of the lectures and my notes on this assignment.”
+*  [nth Child](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child) This gave some insight into some possible ways to solve a floating issue I had, but I wasn't able to get it to work properly.
+*  I was able to piece together everything else from lectures and notes.
 
 ##Custom Javascript, jQuery and Plug-In Explanations
 
 * **Custom Javascript:** When the alien in the header is clicked, it is replaced with the content "You will love Pizza Planet!"
 
-* **Custom jQuery:** This is pretty simple as I couldn't really think of anything I wanted to add in terms of design using just jQuery. I ended up adding a mouse enter/mouse leave effect over the h4 elements that turn the text from blue to black.
+* **Custom jQuery:** This is pretty simple. I created a mouseover effect on the social media icons on the bottom of the contact page. When you mouseover it, the icon gets smaller and has a black background.
 
 * **[ScrollUp](https://markgoodyear.com/2013/01/scrollup-jquery-plugin/)** I wanted this site to be in a single-scroll format since I haven't done many of those. I spent a good deal of time trying to get a smooth scroll plug-in to aide with the navigation. I wasn't able to make it work the way I wanted to so I ended up using the ScrollUp plug-in as an alternative. It appears at the bottom of the page as you scroll down the site and when clicked it takes the user back to the navigation bar at the top of the site.
 

@@ -130,9 +130,11 @@ a:active {
 
 .menuitem {
     background-color: rgba(203, 220, 88, 0.9);
-    margin: 0.5em;
+    margin: 0.7em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
+
+
 
 /* Image Stylizations */
 
@@ -267,9 +269,11 @@ figcaption {
 /* jQuery Style */
 
 .h4hover {
-    padding: 0.8em;
-    border: black 2px;
+    padding: 0.1em;
+    border: black solid 2px;
 }
+
+/* Media Queries */
 
 @media (min-width: 200px) {
     #pizzaimages {
